@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193171042156",
+    "firebase_url": "https://conquer-247eb.firebaseio.com",
+    "project_id": "conquer-247eb",
+    "storage_bucket": "conquer-247eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193171042156:android:292f6f17517ddab3",
+        "android_client_info": {
+          "package_name": "com.example.amitb.sportsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193171042156-1cjmkm1v9mre8dgidl94pd32lnifq9gu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amitb.sportsapp",
+            "certificate_hash": "f4e52b4f3aba396098791a43441bcb3681ac8185"
+          }
+        },
+        {
+          "client_id": "193171042156-0h38gtc9s0f5ri8g5f6avas83t0utmqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE_CeZLK7g6DQ-SdhqDRGoFveY7dm93QY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193171042156-0h38gtc9s0f5ri8g5f6avas83t0utmqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

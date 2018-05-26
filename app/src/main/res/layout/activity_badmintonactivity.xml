@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/badmintonback"
+    tools:context="com.example.amitb.sportsapp.badmintonactivity">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/listview1"
+        android:layout_below="@+id/listview1"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_five"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="    STATS"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/listview1"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gradient_five"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="    GALLERY"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/listview1"
+        android:layout_below="@+id/gallery"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gradient_five"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="    REGISTER"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

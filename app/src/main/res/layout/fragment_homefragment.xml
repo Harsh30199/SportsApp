@@ -1,0 +1,201 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.amitb.sportsapp.homefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AAAAAA"
+        android:backgroundTint="#AAAAAA">
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animationbackground">
+
+            <TextView
+                android:id="@+id/ttt"
+                android:layout_width="686px"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/tt"
+                android:layout_marginBottom="65dp"
+                android:background="#333233"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:lineSpacingExtra="10sp"
+                android:text="Table Tennis"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/badt"
+                android:layout_width="686px"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bb"
+                android:layout_marginTop="5dp"
+                android:background="#333233"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:lineSpacingExtra="10sp"
+                android:text="Badminton"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/fbt"
+                android:layout_width="686px"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cr"
+                android:layout_marginTop="5dp"
+                android:background="#333233"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:lineSpacingExtra="30sp"
+                android:text="Football"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:typeface="monospace" />
+
+            <ImageView
+                android:id="@+id/cr"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="208dp"
+                android:src="@drawable/cricket" />
+
+            <TextView
+                android:id="@+id/crt"
+                android:layout_width="686px"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="208dp"
+                android:layout_toEndOf="@+id/cr"
+                android:background="#333233"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:lineSpacingExtra="30sp"
+                android:text="Cricket"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="30sp"
+                android:typeface="monospace" />
+
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/crt"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_dark"
+                android:src="@drawable/football" />
+
+            <ImageView
+                android:id="@+id/bb"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fbt"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/basketball" />
+
+            <TextView
+                android:id="@+id/bbt"
+                android:layout_width="686px"
+                android:layout_height="150dp"
+                android:layout_below="@+id/fb"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/bb"
+                android:background="#333233"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:lineSpacingExtra="10sp"
+                android:text="Basketball"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:typeface="monospace" />
+
+            <ImageView
+                android:id="@+id/bad"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/bbt"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/badminton" />
+
+            <ImageView
+                android:id="@+id/lt"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/ltt"
+                android:src="@drawable/tennis" />
+
+            <TextView
+                android:id="@+id/ltt"
+                android:layout_width="686px"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/bad"
+                android:layout_marginTop="5dp"
+                android:background="#333233"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:lineSpacingExtra="10sp"
+                android:text="Tennis"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                android:typeface="monospace" />
+
+            <ImageView
+                android:id="@+id/tt"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/ltt"
+                android:layout_marginBottom="65dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/tt" />
+
+            <ImageView
+                android:id="@+id/homecover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/fb"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="147dp"
+                android:src="@drawable/homecover" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</FrameLayout>

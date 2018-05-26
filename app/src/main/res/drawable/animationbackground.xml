@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:androi="http://schemas.android.com/apk/res/android">
+    <item
+        androi:drawable="@drawable/gradient_one"
+        androi:duration="6000"/>
+    <item
+        androi:drawable="@drawable/gradient_two"
+        androi:duration="6000"/>
+    <item
+        androi:drawable="@drawable/gradient_three"
+        androi:duration="6000"/>
+</animation-list>
